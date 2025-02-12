@@ -114,7 +114,8 @@ app.delete(
 );
 
 app.get("/", (req, res) => {
-  res.send("working");
+  // res.send("working");
+  res.redirect("/listings");
 });
 
 //middleWare or error handling......
